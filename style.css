@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.fundo-roxo {
+    position: absolute;
+    left: -5%;
+    z-index: -1;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    height: 42rem;
+    width: 30rem;
+    border-bottom-left-radius: 230px;
+    border-bottom-right-radius: 230px;
+}
+
+.fundo-cinza {
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    z-index: -1;
+    background-color: hsla(0, 12%, 61%, 0.048);
+    height: 41rem;
+    width: 25rem;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 10px;
+}
